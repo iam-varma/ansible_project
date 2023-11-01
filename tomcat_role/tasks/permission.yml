@@ -1,0 +1,8 @@
+---
+- name: give the permission
+  command: 
+     cmd : sudo chown -R tomcat:tomcat /opt/tomcat/
+
+- name: give the permission
+  command: 
+     cmd : sudo chmod -R u+x /opt/tomcat/bin
